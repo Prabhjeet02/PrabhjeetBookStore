@@ -32,3 +32,50 @@ and run the application , changes applied to the application.
 
 2005.. 
 added dropdown 'Content Management' to navbar. 
+
+2010..
+3 new projects created.
+PrabhjeetBooks.DataAccess
+PrabhjeetBooks.Models
+PrabhjeetBooks.Utility
+and added ‘Data’ folder in .DataAccess,
+installed Microsoft.EntityFrameworkCore.Relational and Core.SqlServer packages and Identity.EntityFrameworkCore
+deleted Class1.cs file from all projects
+build the project but errors occur.
+
+2020..
+errors said that packages need to be upgrade.
+in the properties set the target framework to 5.0
+then in manager nuget manager > update ,  there i update the packages but it did not worked because packages was 
+not able to update:(
+so i was frusted and decided to delete the project and start from starting.
+
+2035..
+going for dinner  :)
+
+2104..
+came back and before starting again i got idea that i should delete all the packages and install again 
+maybe the application accept the packages.
+i deleted the packges and install new packages 
+huurrryyy it worked :) i don't have to start from starting.
+
+2120..
+given reference to the project for .DataAccess and .Models, did some changes and again build the project .
+and remove errors from startup.cs with the help of potential fixes.
+
+2130..
+added static details class called SD.cs.
+given reference to Models and Utility.
+added customer area and ScaffoldingReadMe.txt file got added by itself , did some other changes, 
+and change the route in Startup.cs just like in the ScaffoldingReadMe.txt.
+and run the application.
+it did show the same thing as in provided ppt
+
+2155..
+copy pasted some files and Modify the _ViewStart.cshtml 
+and run the appliocation it was working.
+
+2215..
+Added a new Admin area in Areas
+added and deleted some files from admin and Delete the Controllers folder.
+
