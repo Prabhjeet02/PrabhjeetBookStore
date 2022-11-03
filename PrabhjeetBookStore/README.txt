@@ -2,7 +2,7 @@
 
 student number 0791155.
 
-I created the project named PrabhjeetBookStore on 02/11/2022 at 0612pm.
+I created the project named PrabhjeetBookStore on 202202/11/02 at 1812.
 After creating the project I run it.
 and its working great :)
 
