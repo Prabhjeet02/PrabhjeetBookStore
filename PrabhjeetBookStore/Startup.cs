@@ -7,11 +7,12 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using PrabhjeetBookStore.Data;
+//using PrabhjeetBookStore.Data;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using PrabhjeetBookStore.DataAccess.Data;
 
 namespace PrabhjeetBookStore
 {
@@ -30,7 +31,7 @@ namespace PrabhjeetBookStore
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));
-            services.AddDefaultIdentity<IdentityUser>()
+            services.AddDefaultIdentity<IdentityUser>()//Removed and change added to README
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews();
             services.AddRazorPages();

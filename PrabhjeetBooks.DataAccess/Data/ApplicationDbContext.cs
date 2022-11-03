@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace PrabhjeetBookStore.Data
+namespace PrabhjeetBookStore.DataAccess.Data// modified the namespace.. 
 {
     public class ApplicationDbContext : IdentityDbContext
     {

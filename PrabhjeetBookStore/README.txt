@@ -27,5 +27,8 @@ replaced the site.css with the site.css provided in asignment 2 folder
 1935..
 in _Layout.cshtml, change the file name from bootstrap.min.css to bootstrap.css.
 Change the nav class from navbar-light to navbar dark and bg-white to bgprimary and removed text-dark.
-Added the additional properties to the footer class and in _LoginPartial.cshtml remove referencesto ‘text-dark
+Added the additional properties to the footer class and in _LoginPartial.cshtml remove references to ‘text-dark
 and run the application , changes applied to the application.
+
+2005.. 
+added dropdown 'Content Management' to navbar. 
