@@ -17,7 +17,7 @@ again run the project, project is working good and debugging is also working.
 then i remove the dots.
 
 1900..
-downloaded the bootstrap from bootswatch.com
+downloaded the Solar bootstrap.css from bootswatch.com
 In wwwroot>lib> bootstrap > dist > css rename bootstrap to bootstrapss.css and added new bootstrap.css
 which i downloaded.
 
