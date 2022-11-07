@@ -80,3 +80,13 @@ and run the appliocation it was working.
 Added a new Admin area in Areas
 added and deleted some files from admin and Delete the Controllers folder.
 
+==============================================================================================================================
+
+2022-11-07   1740..
+started the assignment2 part2 and build the application 
+
+1745..
+changed the database to PrabhjeetBookStore
+and added the migration to .DataAccess
+and updated the database.
+i am happy that did not got any errors in the starting..application is working good.
