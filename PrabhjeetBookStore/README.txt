@@ -90,3 +90,16 @@ changed the database to PrabhjeetBookStore
 and added the migration to .DataAccess
 and updated the database.
 i am happy that did not got any errors in the starting..application is working good.
+
+1800..
+added Category.cs to .models and added migration by "add-migration AddCategoryToDb"
+
+1809..
+removed the migration by "Remove-Migration" and modified the category.cs
+and added the migration again.
+
+1825..
+modified ApplicationDbContext.cs..
+first remove migration and then add migration and update the database.
+.. :) application is working 
+  
