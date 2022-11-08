@@ -116,3 +116,5 @@ save and run
 got some errors but that was syntax error fixes that errors in CategoryRepository.cs
 and apllication start working.
   
+2010..
+added the ISP_Call.cs to IRepository and SP_Call.cs to Repository and modified them as shown in the slides.
