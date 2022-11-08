@@ -85,46 +85,63 @@ added and deleted some files from admin and Delete the Controllers folder.
 2022-11-07   1740..
 started the assignment2 part2 and build the application 
 
-1745..
+2022-11-07   1745..
 changed the database to PrabhjeetBookStore
-and added the migration to .DataAccess
+and added the migration to .DataAccess by "add-migration AddDefaultIdentityMigration"
+the file got added is "20221107224307_AddDefaultIdentityMigration.cs"
 and updated the database.
 i am happy that did not got any errors in the starting..application is working good.
 
-1800..
+2022-11-07   1800..
 added Category.cs to .models and added migration by "add-migration AddCategoryToDb"
 
-1809..
+2022-11-07   1809..
 removed the migration by "Remove-Migration" and modified the category.cs
 and added the migration again.
 
-1825..
+2022-11-07   1825..
 modified ApplicationDbContext.cs..
-first remove migration and then add migration and update the database.
+first remove migration and then add category migration to database and file got added "20221107231915_AddCategoryToDb.cs"
+and update the database.
 .. :) application is working 
 
-1900.. 
+2022-11-07   1900.. 
 added IRepository.cs and did modification
 
-1938..
+2022-11-07   1938..
 added CategoryRepository.cs and ICategoryRepository.cs
 and modifies the content in them 
 save and run 
 
 
-1939..
+2022-11-07   1939..
 got some errors but that was syntax error fixes that errors in CategoryRepository.cs
 and apllication start working.
   
-2010..
+2022-11-07   2010..
 added the ISP_Call.cs to IRepository and SP_Call.cs to Repository and modified them as shown in the slides.
 
-2106..
+2022-11-07   2106..
 added unitOfWork.cs class and IUnitOfWork.cs interface and modified them.
 and in startup.cs added "services.AddScoped<IUnitOfWork, UnitOfWork>();"
 
-2110..
+2022-11-07   2110..
 it has errors because i did not did public interface 
 
-2112..
+2022-11-07   2112..
 very happy because applicationm is working and no error is there ... :-)
+
+
+2022-11-08   1033..
+open the application and build the solution and its working and starting the next steps
+
+2022-11-08   1045..
+added controller "CategoryController.cs" in Area/Admin  and modified.
+
+2022-11-08   1108..
+add new folder category to Area/Admin/View and added Index.cshtml.
+save and run the application. ;) its working.
+
+2022-11-08   1123..
+commented privacy link from navbar and added Category link to dropdown Content Management. 
+run the application again, its working and category link was working in dropdown.

@@ -32,8 +32,4 @@
     <ProjectReference Include="..\PrabhjeetBooks.Utility\PrabhjeetBooks.Utility.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Areas\Admin\Controllers\" />
-  </ItemGroup>
-
 </Project>
