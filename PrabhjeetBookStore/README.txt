@@ -120,7 +120,8 @@ and apllication start working.
 added the ISP_Call.cs to IRepository and SP_Call.cs to Repository and modified them as shown in the slides.
 
 2106..
-added unitOfWork.cs class and IUnitOfWork.cs interface and modified them. 
+added unitOfWork.cs class and IUnitOfWork.cs interface and modified them.
+and in startup.cs added "services.AddScoped<IUnitOfWork, UnitOfWork>();"
 
 2110..
 it has errors because i did not did public interface 
