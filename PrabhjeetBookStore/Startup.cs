@@ -7,6 +7,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using PrabhjeetBooks.DataAccess.Repository.IRepository;
+using PrabhjeetBooks.DataAccess.Repository;
 //using PrabhjeetBookStore.Data;
 using System;
 using System.Collections.Generic;
@@ -33,6 +35,7 @@ namespace PrabhjeetBookStore
                     Configuration.GetConnectionString("DefaultConnection")));
             services.AddDefaultIdentity<IdentityUser>()//Removed and change added to README
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddControllersWithViews();
             services.AddRazorPages();
         }

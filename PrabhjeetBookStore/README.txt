@@ -118,3 +118,12 @@ and apllication start working.
   
 2010..
 added the ISP_Call.cs to IRepository and SP_Call.cs to Repository and modified them as shown in the slides.
+
+2106..
+added unitOfWork.cs class and IUnitOfWork.cs interface and modified them. 
+
+2110..
+it has errors because i did not did public interface 
+
+2112..
+very happy because applicationm is working and no error is there ... :-)
