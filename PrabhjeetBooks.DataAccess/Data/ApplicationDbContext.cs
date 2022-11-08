@@ -13,6 +13,6 @@ namespace PrabhjeetBookStore.DataAccess.Data// modified the namespace..
             : base(options)
         {
         }
-        public DbSet<Category> Categories { get; set; }
+        public DbSet<Category> Categories { get; set; } // added categories
     }
 }

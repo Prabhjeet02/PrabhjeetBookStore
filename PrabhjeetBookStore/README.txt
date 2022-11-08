@@ -102,4 +102,17 @@ and added the migration again.
 modified ApplicationDbContext.cs..
 first remove migration and then add migration and update the database.
 .. :) application is working 
+
+1900.. 
+added IRepository.cs and did modification
+
+1938..
+added CategoryRepository.cs and ICategoryRepository.cs
+and modifies the content in them 
+save and run 
+
+
+1939..
+got some errors but that was syntax error fixes that errors in CategoryRepository.cs
+and apllication start working.
   
