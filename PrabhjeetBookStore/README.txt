@@ -156,3 +156,33 @@ and run the project
 2022-11-08   1215..
 applied code for edit, delete and new category work.
 added iaction result to controller and a view and modified/added data to it.
+
+2022-11-08   1228..
+created _CreateAndBackToListButton.cshtml and added asp action
+created _EditAndBackToListButton.cshtml and @model razor statement
+
+2022-11-08   1248..
+Modified the Upsert and added asp-action to index.cshtml.
+changed title to @title and put @section call to script to validate input.
+run and test the project.
+again happy face ;-) project is working and title got changed and script for valid input field is working.
+
+2022-11-08   1320..
+created an Upsert POST action methodin CategoryController.cs.
+remove _db.SaveChanges() in CategoryRepository.cs of .dataAccess  and modfied code and added RedirectToaction method
+run the application.. it did not add category, then change @if(Model.Id !=0) and again run the code.
+agAIN EDIT category is not displaying.
+
+2022-11-08   1343..
+:( tried hard to display the category name but failed.
+so decided to leave this here and start next steps because anyway there is not any error..
+
+2022-11-08   1402..
+added API call for HTTPDelete in categoryController.ca
+modified category.cs and added HTTPDelete with a delete method.
+added the delete functionality in category.js with onclick event to Delete function.
+added the Delete(url) function and added the given code.
+
+2022-11-08   1411..
+completed with slides and 
+Updated the README :-) but still not able to display the category when i create it. :-( 
