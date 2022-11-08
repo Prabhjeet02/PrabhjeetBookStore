@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using PrabhjeetBooks.DataAccess.Repository.IRepository;
+using PrabhjeetBooks.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,6 +19,23 @@ namespace PrabhjeetBookStore.Areas.Admin.Controllers
         public IActionResult Index()
         {
             return View();
+        }
+
+        public IActionResult Upsert(int? id)      // action method for Upsert
+        {
+            Category category = new Category();  // using PrabhjeetBooks.Models
+            if (id == null)
+            {
+                //this is for create
+                return View(category);
+            }
+            //this is for edit
+            category = _unitOfWork.Category.Get(id.GetValueOrDefault());
+            if (category == null) 
+            {
+                return NotFound();
+            }
+            return View();   // add category
         }
 
         //API calls here

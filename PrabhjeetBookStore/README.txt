@@ -145,3 +145,14 @@ save and run the application. ;) its working.
 2022-11-08   1123..
 commented privacy link from navbar and added Category link to dropdown Content Management. 
 run the application again, its working and category link was working in dropdown.
+
+2022-11-08   1138..
+added icons in category from Font Awesome. 
+and added javascript category.js in wwwroot/js 
+then called @section to category.js script 
+and run the project 
+''''....   :) project is working
+
+2022-11-08   1215..
+applied code for edit, delete and new category work.
+added iaction result to controller and a view and modified/added data to it.
