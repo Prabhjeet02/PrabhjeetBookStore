@@ -89,11 +89,14 @@ started the assignment2 part2 and build the application
 changed the database to PrabhjeetBookStore
 and added the migration to .DataAccess by "add-migration AddDefaultIdentityMigration"
 the file got added is "20221107224307_AddDefaultIdentityMigration.cs"
+with the file name "20221107224307_AddDefaultIdentityMigration.Designer.cs" in it.
 and updated the database.
 i am happy that did not got any errors in the starting..application is working good.
 
 2022-11-07   1800..
 added Category.cs to .models and added migration by "add-migration AddCategoryToDb"
+the file got added is "20221107231915_AddCategoryToDb.cs"
+with the file name "20221107231915_AddCategoryToDb.Designer.cs" in it.
 
 2022-11-07   1809..
 removed the migration by "Remove-Migration" and modified the category.cs
