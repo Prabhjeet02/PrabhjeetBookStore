@@ -189,3 +189,8 @@ added the Delete(url) function and added the given code.
 2022-11-08   1411..
 completed with slides and 
 Updated the README :-) but still not able to display the category when i create it. :-( 
+
+2022-11-10   1100..
+in class, again try to solve that error.
+there was no database on lab computer so first connected to database 
+but still error is occuring :\
