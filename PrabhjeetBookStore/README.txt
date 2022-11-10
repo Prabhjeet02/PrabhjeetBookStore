@@ -175,6 +175,7 @@ created an Upsert POST action methodin CategoryController.cs.
 remove _db.SaveChanges() in CategoryRepository.cs of .dataAccess  and modfied code and added RedirectToaction method
 run the application.. it did not add category, then change @if(Model.Id !=0) and again run the code.
 agAIN EDIT category is not displaying.
+says "System.NotImplementedException: 'The method or operation is not implemented.'".
 
 2022-11-08   1343..
 :( tried hard to display the category name but failed.
