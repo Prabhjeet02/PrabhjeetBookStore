@@ -195,3 +195,14 @@ Updated the README :-) but still not able to display the category when i create 
 in class, again try to solve that error.
 there was no database on lab computer so first connected to database 
 but still error is occuring :\
+
+
+2022-11-14   1250..
+starting again to solve the error
+
+2022-11-14   1348..
+tried with the file given from class instructor and taking those files as reference rewrite the code
+then run the application again
+..some differences seen in the application and application is working 
+now can submit the category name but its not able to display 
+i think i am moving ahead to solve the error.. :)
