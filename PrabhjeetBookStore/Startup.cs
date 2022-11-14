@@ -33,6 +33,7 @@ namespace PrabhjeetBookStore
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));
+            services.AddDatabaseDeveloperPageExceptionFilter();
             services.AddDefaultIdentity<IdentityUser>()//Removed and change added to README
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddScoped<IUnitOfWork, UnitOfWork>();

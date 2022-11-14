@@ -205,4 +205,8 @@ tried with the file given from class instructor and taking those files as refere
 then run the application again
 ..some differences seen in the application and application is working 
 now can submit the category name but its not able to display 
+says "DataTables warning: table id=tblData - Requested unknown parameter '0' for row 0, column 0. For more information about this error, please see http://datatables.net/tn/4"
 i think i am moving ahead to solve the error.. :)
+
+2022-11-14   1543..
+tried many time but unable to display the category. 

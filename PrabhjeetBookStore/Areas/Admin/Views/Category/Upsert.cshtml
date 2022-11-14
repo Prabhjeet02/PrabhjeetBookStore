@@ -10,7 +10,7 @@
 <form method="post">
     <div class="row p-3 border">
         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-        @if (Model.Id != 0)
+        @if (Model.Id != 0)   // if this value is null it was not displaying 'Edit Category', changing to  0
         {
             //edit
             title = "Edit Category";
