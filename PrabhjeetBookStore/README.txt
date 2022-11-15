@@ -105,7 +105,7 @@ and added the migration again.
 2022-11-07   1825..
 modified ApplicationDbContext.cs..
 first remove migration and then add category migration to database and file got added "20221107231915_AddCategoryToDb.cs"
-and update the database.
+and update the database. by command "update-database"
 .. :) application is working 
 
 2022-11-07   1900.. 
@@ -205,7 +205,7 @@ tried with the file given from class instructor and taking those files as refere
 then run the application again
 ..some differences seen in the application and application is working 
 now can submit the category name but its not able to display 
-says "DataTables warning: table id=tblData - Requested unknown parameter '0' for row 0, column 0. For more information about this error, please see http://datatables.net/tn/4"
+        says  "DataTables warning: table id=tblData - Requested unknown parameter '0' for row 0, column 0. For more information about this error, please see http://datatables.net/tn/4"
 i think i am moving ahead to solve the error.. :)
 
 2022-11-14   1543..
