@@ -210,3 +210,13 @@ i think i am moving ahead to solve the error.. :)
 
 2022-11-14   1543..
 tried many time but unable to display the category. 
+
+2022-11-14   2050..
+again started working on error... hope it goes well.
+
+2022-11-14   2155..
+reviewed every files but nothing came up..
+then updated the database (.DataAccess)
+and tried on different web browser.. and it worked 
+so i clear the cache and again tried in google chrome web browser and it worked.
+..... :-)  
