@@ -15,5 +15,6 @@ namespace PrabhjeetBookStore.DataAccess.Data// modified the namespace..
         }
         public DbSet<Category> Categories { get; set; } // added categories
         public DbSet<CoverType> CoverTypes { get; set; }
+        public DbSet<Product> Products { get; set; }
     }
 }

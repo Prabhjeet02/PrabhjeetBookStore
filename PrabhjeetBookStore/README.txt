@@ -256,3 +256,15 @@ build the application and run it..
 :) its working and i can add covertypes.
  thange the bootstrap.css file and change to background to "--bs-body-bg: lightblue";
  
+ 2022-11-21  2018..
+ added class Product.cs and modified it.
+ modified ApplicationBbContext.cs
+ added migration"add-migration AddProductToDb"
+ and update the database by "update-database"
+ it added the file "20221122011727_AddProductToDb.cs" in migrations
+
+ 2022-11-21  2030..
+ reviwed the table and update the table 
+ and added migration "add-migration AddValidationToProduct"
+ and update the database 
+ it added the file name "20221122012913_AddValidationToProduct.cs"
