@@ -1,10 +1,13 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using PrabhjeetBooks.DataAccess.Repository.IRepository;
-using PrabhjeetBooks.Models;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
+using PrabhjeetBookStore.DataAccess.Data;
+using PrabhjeetBooks.Models;
+using PrabhjeetBooks.DataAccess.Repository.IRepository;
 
 namespace PrabhjeetBookStore.Areas.Admin.Controllers
 {
