@@ -220,3 +220,39 @@ then updated the database (.DataAccess)
 and tried on different web browser.. and it worked 
 so i clear the cache and again tried in google chrome web browser and it worked.
 ..... :-)  
+
+====================================================================================================================================
+
+2022-11-21   1552..
+started part 3 of assignment 2 and build the application
+
+2022-11-21   1621..
+added CoverType.cs in .Models, and added Model Id and Name
+added CoverTypeRepository class to repository folder
+added ICoverTypeRepository interface to IRepository folder
+added CoverType to UnitOfWork and IUnitOfWork
+added migration"add-migration AddCoverTypeToDb"
+and update the database 
+and it added file "20221121211634_AddCoverTypeToDb.cs"
+needed to add "public DbSet<CoverType> CoverTypes { get; set; }" to ApplicationDbContext.cs
+so tried to remove migration but i updated the database already
+it says "The migration '20221121211634_AddCoverTypeToDb' has already been applied to the database. 
+Revert it and try again. If the migration has been applied to other databases, 
+consider reverting its changes using a new migration instead."
+i added "public DbSet<CoverType> CoverTypes { get; set; }" to ApplicationDbContext.cs
+and added migration "add-migration AddNewCoverTypeToDb"
+and it added file "20221121213807_AddNewCoverTypeToDb.cs"
+with "20221121213807_AddNewCoverTypeToDb.Designer.cs" in it.
+
+2022-11-21   1653..
+added folder Covertype and added New Scaffolding "CoverTypeController.cs"
+and it added "Index.cshtml" in CoverType folder
+
+2022-11-21   1955..
+modified the _Layout.cshtml and other files where it says to fixes errors 
+added CoverType.js file and added js code that i copied form category.js file 
+added Upsert.cs in CoverType folder and modifiedn it and fixes the errors i got.
+build the application and run it..
+:) its working and i can add covertypes.
+ thange the bootstrap.css file and change to background to "--bs-body-bg: lightblue";
+ 
