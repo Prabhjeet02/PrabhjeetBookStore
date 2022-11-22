@@ -24,6 +24,7 @@ namespace PrabhjeetBooks.DataAccess.Repository
         {
             get; private set; //throw new NotImplementedException();
         }
+        public ProductRepository Product { get; private set; }
 
         public ICoverTypeRepository CoverType
         {
@@ -31,6 +32,8 @@ namespace PrabhjeetBooks.DataAccess.Repository
         }
 
         public ICoverTypeRepository CoverTypeRePository => throw new NotImplementedException();
+
+        IProductRepository IUnitOfWork.Product => throw new NotImplementedException();
 
         public void Dispose()
         {
