@@ -301,6 +301,7 @@ build the application and run it..
 
  2022-11-22  1608..
  Added a new folder and subfolder in wwwroot > images/products.
+ and uploaded an image in it.
  In the ProductController configured the Product Upsert Post action method and uncommented the method.
  check the error and run the application.
  it is working but i can't upload the filled information to the list.  :( 
