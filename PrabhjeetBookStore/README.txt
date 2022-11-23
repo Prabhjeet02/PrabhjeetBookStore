@@ -268,3 +268,39 @@ build the application and run it..
  and added migration "add-migration AddValidationToProduct"
  and update the database 
  it added the file name "20221122012913_AddValidationToProduct.cs"
+
+
+ 2022-11-21  2109..
+ added product to repository and IRepository interface
+ added product to UnitOfWork and IUnitOfWork
+ and mofified the files and fixes the errors that occurs 
+ and run the application..
+ :-) it works fine and ready for next step
+
+
+ 2022-11-22  1309..
+ going to start session2 of part3 assignment2
+
+
+ 2022-11-22  1415..
+ Added ProductController.cs and ProductVM.cs class and make it public
+ Modify the API call to include the Category and CoverType properites
+ Added an Index view and product.js file and filled them with the code
+ and modified the code
+ Modified the _Layout.cshtml to add a new link to Product.
+ Run the application 
+ it works as expected. :-)
+
+
+ 2022-11-22  1538..
+ Created an Upsert.cs for Products and modify it by provide file from professor
+ Add a rich textbox to the textarea inside Product with tiny.cloud
+ and added a function to validate input and if empty, display a Sweet Alert.
+ run the project and it was working and creating product was added with beautiful textbox
+
+
+ 2022-11-22  1608..
+ Added a new folder and subfolder in wwwroot > images/products.
+ In the ProductController configured the Product Upsert Post action method and uncommented the method.
+ check the error and run the application.
+ it is working but i can't upload the filled information to the list.  :( 
