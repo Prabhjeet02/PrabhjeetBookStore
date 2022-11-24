@@ -305,3 +305,9 @@ build the application and run it..
  In the ProductController configured the Product Upsert Post action method and uncommented the method.
  check the error and run the application.
  it is working but i can't upload the filled information to the list.  :( 
+
+
+ 2022-11-24  1042..
+ started the application in class.
+ uncommented the session I commented for debugging the error and
+ it solved the error that i have in uploading the information to product list.
