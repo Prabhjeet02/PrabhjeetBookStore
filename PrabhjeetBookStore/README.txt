@@ -331,3 +331,10 @@ build the application and run it..
    
   added new stuff to make new properties work in Product.cs 
   added new code in Index.cshtml to get product on home page
+
+
+  2022-11-30  1154..
+  modified the HomeController.cs by looking at the code given for reference by the teacher
+  Now run the application 
+  product was displaying on home page :-) 
+  but image was not displaying..
