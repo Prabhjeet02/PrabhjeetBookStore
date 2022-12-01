@@ -23,12 +23,12 @@ namespace PrabhjeetBooks.Models
         [Required]
         [Range(1, 10000)]
         public double Price { get; set; }
-        /*[Required]
+        [Required]
         [Range(1, 10000)]
         public double Price50 { get; set; }
         [Required]
         [Range(1, 10000)]
-        public double Price100 { get; set; }*/
+        public double Price100 { get; set; }
         public string ImageUrl { get; set; }
         [Required]
         public int CategoryId { get; set; }

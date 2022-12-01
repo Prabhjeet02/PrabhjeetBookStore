@@ -311,3 +311,23 @@ build the application and run it..
  started the application in class.
  uncommented the session I commented for debugging the error and
  it solved the error that i have in uploading the information to product list.
+
+ =============================================================================================================================
+ 
+ 2022-11-30  1105..
+  starting the part 4 of the assignment 2
+  pulled the code from given github for comparison
+  and In Models/Product.cs added three more properties of price -
+  Price, Price50 and Price100.
+  To use these properties, i added new migration called "add-migration AddNewValidationToProduct"
+  and files got added "20221130161826_AddNewValidationToProduct.cs" with "20221130161826_AddNewValidationToProduct.Designer.cs"
+  than update the database
+
+
+  2022-11-30  1135..
+  in ProductRepository.cs added "objFromDb.Price = product.Price;
+                                 objFromDb.Price50 = product.Price50;
+                                 objFromDb.Price100 = product.Price100;"
+   
+  added new stuff to make new properties work in Product.cs 
+  added new code in Index.cshtml to get product on home page
