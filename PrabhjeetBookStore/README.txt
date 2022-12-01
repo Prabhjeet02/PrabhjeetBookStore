@@ -315,26 +315,34 @@ build the application and run it..
  =============================================================================================================================
  
  2022-11-30  1105..
-  starting the part 4 of the assignment 2
-  pulled the code from given github for comparison
-  and In Models/Product.cs added three more properties of price -
+  -starting the part 4 of the assignment 2
+  -pulled the code from given github for comparison
+  -and In Models/Product.cs added three more properties of price -
   Price, Price50 and Price100.
-  To use these properties, i added new migration called "add-migration AddNewValidationToProduct"
+  -To use these properties, i added new migration called "add-migration AddNewValidationToProduct"
   and files got added "20221130161826_AddNewValidationToProduct.cs" with "20221130161826_AddNewValidationToProduct.Designer.cs"
   than update the database
 
 
   2022-11-30  1135..
-  in ProductRepository.cs added "objFromDb.Price = product.Price;
+  -in ProductRepository.cs added "objFromDb.Price = product.Price;
                                  objFromDb.Price50 = product.Price50;
                                  objFromDb.Price100 = product.Price100;"
    
-  added new stuff to make new properties work in Product.cs 
-  added new code in Index.cshtml to get product on home page
+  -added new stuff to make new properties work in Product.cs 
+  -added new code in Index.cshtml to get product on home page
 
 
   2022-11-30  1154..
-  modified the HomeController.cs by looking at the code given for reference by the teacher
-  Now run the application 
-  product was displaying on home page :-) 
-  but image was not displaying..
+  -modified the HomeController.cs by looking at the code given for reference by the teacher
+  -Now run the application 
+  -product was displaying on home page :-) 
+   but image was not displaying..
+
+
+  2022-11-30  1225..
+  -added new pictures in image/products folder from the given reference github repository
+  -reviewed the ProductController.cs and modified the code which was important to view
+   image on home page.
+  -again run the application.
+   it worked and was able to view the images. 
