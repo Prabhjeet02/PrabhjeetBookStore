@@ -355,3 +355,12 @@ tried to publish my application on Azure it says successfully published and adde
 called "profile.arm.json" 
 application says "prabhjeetbookstore1.azurewebsites.net is currently unable to handle this request.
 HTTP ERROR 500"
+
+
+2022-12-09  1235..
+again tried to publish on azure and it again added same file "profile.arm.json". 
+but it again says the same error"prabhjeetbookstore.azurewebsites.net is currently unable to handle this request.
+HTTP ERROR 500".
+
+application is working with local host but when tring with azure it gives error.
+the azure link is " https://prabhjeetbookstore1.azurewebsites.net "
