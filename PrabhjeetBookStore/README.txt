@@ -346,3 +346,12 @@ build the application and run it..
    image on home page.
   -again run the application.
    it worked and was able to view the images. 
+
+
+
+
+2022-12-09  0845..
+tried to publish my application on Azure it says successfully published and added a file
+called "profile.arm.json" 
+application says "prabhjeetbookstore1.azurewebsites.net is currently unable to handle this request.
+HTTP ERROR 500"
